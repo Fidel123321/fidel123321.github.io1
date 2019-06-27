@@ -1,0 +1,28 @@
+body {
+    background-image: url(../img/fon1.jpg);
+    height: 100%;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-family: 'Open Sans', sans-serif;
+}
+
+div#block {
+    width:300px;
+    height: 360px;
+    margin: 125px auto 0 auto;
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: deepskyblue;
+    border: 5px solid black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: white;
+    display: table;
+    border-radius: 20px;
+}
+
+a {
+    color: #fff;
+}

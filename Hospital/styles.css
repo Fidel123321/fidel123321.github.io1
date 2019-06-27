@@ -1,0 +1,356 @@
+﻿ body {
+	margin: 0 0 1em 0;
+	padding: 0;
+	color: #170101;
+	line-height: 130%;
+	font-family: , "Times New Roman", "sans-serif";
+	font-size: 1.3em;
+	text-align: center;
+}
+
+#wrapper-header {
+	background: gray;
+}
+
+#header {
+	background:white url('images/doctors.jpg') right no-repeat;
+	width: 75%;
+	height: 300px;
+	background-position: top;
+	background-size: cover;
+	line-height: 300px;
+	margin: 0 auto;
+	border-left: 1px solid #0a0101;
+	border-right: 1px solid #0e0101;
+	text-align: left;
+}
+
+#header h1 {
+	margin: 0;
+	padding: 0;
+	color: deepskyblue;
+	font-size: 220%;
+	padding-left: 10px;
+	letter-spacing: -0.1em;
+}
+
+#wrapper-menu {
+	background: skyblue url('images/menu-background.png') top left repeat-x;
+	float: left;
+	width: 100%;
+}
+
+#menu {
+	width: 75%;
+	margin: 0 auto;
+	font-size: 95%;
+	white-space: nowrap; 
+	padding-right: 2px;	
+	
+}
+
+
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	border-left: 1px solid #101502;
+	border-right: 1px solid #090c00;
+	width: 100%;
+
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a:link, #menu a:visited {
+	padding: 0.2em 1em;
+	background: transparent;
+	text-decoration: none;
+	float: left;
+	border-right: 1px solid #0d1001;
+}
+
+#menu ul li a:hover
+{
+	background: gray url('images/menu-hover.png') repeat-x;
+	color: #0e1300;
+}
+
+#content {
+	width: 73%; 
+	margin: 0 auto;
+	padding: 3.5em 1% 20px 1%;
+	border-left: 1px solid deepskyblue;
+	border-right: 1px solid deepskyblue;
+	background: deepskyblue;
+	font-size: 90%;
+	text-align: left;
+	min-height: 700px;
+
+}
+
+
+#content { padding-top: 1.8em; }
+img.alignright {
+float: right; 
+padding: 6px;
+margin: 0 0 2px 7px;
+display: inline;
+border: 1px solid #0e0101;
+}
+img.buttonbuy {
+float: right; 
+padding: 6px;
+margin: 0 0 2px 7px;
+display: inline;
+}
+
+.hovergallery{
+height: 635px;
+	width: 635px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.hovergallery div{
+width:160px;
+height: 150px;
+ /*transform:scale(1.0); уменьшаем размер до 0.8*/
+
+transition-duration: 0.5s; /* длительность анимации*/
+
+opacity: 1; /*Начальная прозрачность изображений*/
+margin: 0 4px 5px 0; /*Интервалы между изображениями*/
+background-position: center;
+background-size: cover;
+}
+
+.hovergallery div:hover{
+transform:scale(2.5); /* увеличиваем размер до 1.2x*/
+
+box-shadow:0px 0px 30px #190101; /*CSS3 тени: 30px размытая тень вокруг всего изображения*/
+
+opacity: 1;
+}
+
+#footer {
+	margin: 0 auto;
+	padding: 2px -1%;
+	width: 100%;
+	text-align: right;
+	color: #0c0000;
+	letter-spacing: 0.17em;
+	background: skyblue url('images/menu-background.png') top left repeat-x;
+	border: 1px solid skyblue;
+	font-size: 80%;
+}
+
+.case {
+	display: flex;
+	flex-direction: column;
+}
+
+.case input {
+	width: 230px;
+}
+
+h2 {
+	color: #011519;
+	padding-bottom: 3px;
+	border-bottom: 1px solid #0ca5e4;
+	font-size: 150%;
+	letter-spacing: -0.1em;
+}
+
+a:link, a:visited {
+	color: #061001;
+	text-decoration: none;
+
+}
+
+a:hover
+{
+	color: #000000;
+	text-decoration: underline;
+}
+
+p { margin-left: 20px; }
+
+#feedback {
+	width: 75%;
+	
+}
+
+.byton {
+	border-radius: 5px;
+	background-color: lightblue;
+	padding: 5px;
+	
+}
+
+.inside {
+	margin-left: 25px;
+}
+
+.container {
+	width: 1450px;
+	margin: 0 auto;
+	display: flex;
+}
+.lox {
+	margin-right: 20px
+}
+
+.position {
+	display: flex;	
+}
+
+#apparat {
+	width: 600px;
+	height: 400px
+	
+}
+#doc1 {
+	background-image: url(images/doctor1.jpg)
+}
+#doc2 {
+	background-image: url(images/doctor2.jpg)
+}
+#doc3 {
+	background-image: url(images/doctor3.jpg)
+}
+#doc4 {
+	background-image: url(images/doctor4.jpg)
+}
+#doc5 {
+	background-image: url(images/doctor5.jpg)
+}
+#doc6 {
+	background-image: url(images/doctor6.jpg)
+}
+#doc7 {
+	background-image: url(images/doctor7.jpg)
+}
+#doc8 {
+	background-image: url(images/doctor8.jpg)
+}
+#doc9 {
+	background-image: url(images/doctor9.jpg)
+}
+#doc10{
+	background-image: url(images/doctor10.jpg)
+}
+#doc11 {
+	background-image: url(images/doctor11.jpg)
+}
+#doc12 {
+	background-image: url(images/doctor12.jpg)
+}
+#host {
+	width: 900px;
+	height: 600px
+}
+#boi {
+	width: 640 px;
+	height: 430px 
+}
+#doc {
+	width: 600px;
+	height: 300px
+}
+#coma {
+	width: 900px;
+	height: 650px
+}
+
+.position {
+	display: flex;
+	
+}
+#bam {
+	width: 450px;
+	height: 300px
+}
+#dok1 {
+	width: 300px;
+	height: 230px
+}
+#dok4 {
+	width: 300px;
+	height: 230px
+}
+#dok3 {
+	width: 300px;
+	height: 230px
+}
+#dok5 {
+	width: 300px;
+	height: 230px
+}
+
+#dok6 {
+	width: 300px;
+	height: 230px
+}
+#dok2 {
+	width: 300px;
+	height: 230px
+}
+#bem {
+	width: 500px;
+	height: 400px
+}
+
+#bim{
+	width: 500px;
+	height: 400px
+}
+#poc {
+	width: 400px;
+	height: 250px
+}
+#tonus {
+	width: 500px;
+	height: 400px
+}
+#inf {
+	width: 600px;
+	height: 400px
+}
+#dig {
+	width: 300px;
+	height: 230px
+}
+#med {
+	width: 300px;
+	height: 230px
+}
+#med1 {
+	width: 300px;
+	height: 230px
+}
+#med2 {
+	width: 300px;
+	height: 230px
+}
+#urik {
+	width: 320px;
+	height: 230px
+}
+#gruz {
+	width: 300px;
+	height: 230px
+}
+#powar {
+	width: 300px;
+	height: 230px
+}
+#hart {
+	width: 600px;
+	height: 400px
+}

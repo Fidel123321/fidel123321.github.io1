@@ -1,0 +1,6 @@
+vimya::12345::oda01@mail.ru::
+host::4321::yoda@mail.ru::
+cherv::12345::sos@mail.ru::
+mishkins::12345::mishkins@mail.ru::
+Anton::gondon::antoncordon@mail.ru::
+ShadowMoon::12345::oda01@mail.ru::
